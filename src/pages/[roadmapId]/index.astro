@@ -71,13 +71,13 @@ const contentContributionLink = `https://github.com/kamranahmedse/developer-road
     hasTopics={roadmapData.hasTopics}
     isUpcoming={roadmapData.isUpcoming}
   />
-
+  <!-- <ShareIcons description={roadmapData.featuredDescription} pageUrl={`https://roadmap.sh/${roadmapId}`} /> -->
   <div class='bg-gray-50 py-4 sm:py-12'>
     {
       !roadmapData.isUpcoming && roadmapData.jsonUrl && (
         <div class='max-w-[1000px] container relative'>
-          <ShareIcons description={roadmapData.featuredDescription} pageUrl={`https://roadmap.sh/${roadmapId}`} />
-          <TopicOverlay contentContributionLink={contentContributionLink} />
+          
+           <TopicOverlay contentContributionLink={contentContributionLink} />
 
           <FrameRenderer
             resourceType={'roadmap'}

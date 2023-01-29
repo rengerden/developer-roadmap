@@ -92,14 +92,14 @@ const commitUrl = `https://github.com/kamranahmedse/developer-roadmap/commit/${i
     {jsonLd.length > 0 && <script type='application/ld+json' set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>
-    <YouTubeBanner />
+    <!-- <YouTubeBanner /> -->
     <Navigation />
     <slot />
 
-    <OpenSourceBanner />
+    <!-- <OpenSourceBanner /> -->
     <Footer />
-    {sponsor && <Sponsor sponsor={sponsor} />}
+    <!-- {sponsor && <Sponsor sponsor={sponsor} />}
     <slot name='after-footer' />
-    <Analytics />
+    <Analytics /> -->
   </body>
 </html>

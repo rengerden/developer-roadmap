@@ -7,6 +7,7 @@ featuredDescription: "Step by step guide to becoming a Java Developer in 2023"
 title: "Java Developerss"
 description: "Step by step guide to becoming a Java developer in 2023"
 hasTopics: true
+isNew: true
 dimensions:
   width: 968
   height: 1167.29
