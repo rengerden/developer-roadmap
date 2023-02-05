@@ -1,16 +1,16 @@
 ---
-jsonUrl: "/jsons/roadmaps/java.json"
+jsonUrl: "/jsons/roadmaps/java2.json"
 pdfUrl: "/pdfs/roadmaps/java.pdf"
-order: 9
+order: 1
 featuredTitle: "Java"
-featuredDescription: "Step by step guide to becoming a Java Developer in 2023"
-title: "Java Developerss"
-description: "Step by step guide to becoming a Java developer in 2023"
+featuredDescription: "Temas referentes al camino Java"
+title: "Java"
+description: "Temas referentes al camino Java"
 hasTopics: true
 isNew: true
 dimensions:
   width: 968
-  height: 1167.29
+  height: 1890.29
 schema:
   headline: "Java Developer Roadmap"
   description: "Learn how to become a Java Developer with this interactive step by step guide in 2023. We also have resources and short descriptions attached to the roadmap items so you can get everything you want to learn in one place."
@@ -18,7 +18,7 @@ schema:
   datePublished: "2023-01-05"
   dateModified: "2023-01-20"
 seo:
-  title: "Learn to become a modern Java developer"
+  title: "Java Roadmap"
   description: "Community driven, articles, resources, guides, interview questions, quizzes for java development. Learn to become a modern Java developer by following the steps, skills, resources and guides listed in this roadmap."
   keywords:
     - "guide to becoming a developer"

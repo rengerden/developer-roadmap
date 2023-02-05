@@ -8,7 +8,6 @@ import { serializeSitemap, shouldIndexPage } from './sitemap.mjs';
 
 export default defineConfig({
   site: 'https://rengerden.github.io',
-  base: '/develop',
   markdown: {
     shikiConfig: {
       theme: 'dracula',

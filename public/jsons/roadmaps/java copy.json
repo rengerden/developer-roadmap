@@ -3,6 +3,27 @@
     "controls": {
       "control": [
         {
+          "ID": "3439",
+          "typeID": "Arrow",
+          "zOrder": "1",
+          "w": "29",
+          "h": "56",
+          "measuredW": "150",
+          "measuredH": "100",
+          "x": "396",
+          "y": "165",
+          "properties": {
+            "curvature": "0",
+            "leftArrow": "false",
+            "rightArrow": "false",
+            "color": "10027263",
+            "p0": { "x": 1, "y": 0 },
+            "p1": { "x": 0.5189460476787955, "y": -0.17340025094102887 },
+            "p2": { "x": 29, "y": 56 },
+            "stroke": "dotted"
+          }
+        },
+        {
           "ID": "3440",
           "typeID": "Arrow",
           "zOrder": "2",
@@ -982,12 +1003,205 @@
                   "measuredH": "24",
                   "x": "36",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Polimorfismo básico" }
+                  "properties": { "size": "16", "text": "DataTypes, Variables" }
                 }
               ]
             }
           }
-        },       
+        },
+        {
+          "ID": "3576",
+          "typeID": "__group__",
+          "zOrder": "111",
+          "measuredW": "557",
+          "measuredH": "90",
+          "w": "557",
+          "h": "90",
+          "x": "22",
+          "y": "213",
+          "properties": { "controlName": "ext_link:roadmap.sh/backend" },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "zOrder": "0",
+                  "w": "557",
+                  "h": "90",
+                  "measuredW": "100",
+                  "measuredH": "70",
+                  "x": "0",
+                  "y": "0"
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "zOrder": "1",
+                  "measuredW": "384",
+                  "measuredH": "28",
+                  "x": "87",
+                  "y": "19",
+                  "properties": {
+                    "size": "20",
+                    "text": "Backend Roadmap till Language Selection"
+                  }
+                },
+                {
+                  "ID": "2",
+                  "typeID": "Label",
+                  "zOrder": "2",
+                  "measuredW": "153",
+                  "measuredH": "24",
+                  "x": "202",
+                  "y": "48",
+                  "properties": {
+                    "size": "16",
+                    "text": "roadmap.sh/backend",
+                    "color": "10027263"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "3577",
+          "typeID": "Canvas",
+          "zOrder": "55",
+          "w": "350",
+          "h": "141",
+          "measuredW": "100",
+          "measuredH": "70",
+          "x": "716",
+          "y": "181"
+        },
+        {
+          "ID": "3578",
+          "typeID": "Label",
+          "zOrder": "56",
+          "measuredW": "314",
+          "measuredH": "25",
+          "x": "730",
+          "y": "198",
+          "properties": {
+            "size": "17",
+            "text": "Find the detailed version of this roadmap"
+          }
+        },
+        {
+          "ID": "3579",
+          "typeID": "Label",
+          "zOrder": "57",
+          "measuredW": "319",
+          "measuredH": "25",
+          "x": "730",
+          "y": "226",
+          "properties": {
+            "size": "17",
+            "text": "along with resources and other roadmaps"
+          }
+        },
+        {
+          "ID": "3586",
+          "typeID": "__group__",
+          "zOrder": "58",
+          "measuredW": "320",
+          "measuredH": "45",
+          "w": "320",
+          "h": "45",
+          "x": "731",
+          "y": "262",
+          "properties": { "controlName": "ext_link:roadmap.sh" },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "zOrder": "0",
+                  "w": "320",
+                  "h": "45",
+                  "measuredW": "100",
+                  "measuredH": "70",
+                  "x": "0",
+                  "y": "0",
+                  "properties": { "borderColor": "4273622", "color": "4273622" }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "zOrder": "1",
+                  "measuredW": "105",
+                  "measuredH": "28",
+                  "x": "141",
+                  "y": "8",
+                  "properties": {
+                    "color": "16777215",
+                    "size": "20",
+                    "text": "roadmap.sh"
+                  }
+                },
+                {
+                  "ID": "2",
+                  "typeID": "Label",
+                  "zOrder": "2",
+                  "measuredW": "35",
+                  "measuredH": "28",
+                  "x": "76",
+                  "y": "8",
+                  "properties": {
+                    "color": "16777215",
+                    "size": "20",
+                    "text": "http"
+                  }
+                },
+                {
+                  "ID": "3",
+                  "typeID": "Label",
+                  "zOrder": "3",
+                  "measuredW": "5",
+                  "measuredH": "28",
+                  "x": "113",
+                  "y": "8",
+                  "properties": {
+                    "color": "16777215",
+                    "size": "20",
+                    "text": ":"
+                  }
+                },
+                {
+                  "ID": "4",
+                  "typeID": "Label",
+                  "zOrder": "4",
+                  "measuredW": "10",
+                  "measuredH": "28",
+                  "x": "120",
+                  "y": "9",
+                  "properties": {
+                    "color": "16777215",
+                    "size": "20",
+                    "text": "/"
+                  }
+                },
+                {
+                  "ID": "5",
+                  "typeID": "Label",
+                  "zOrder": "5",
+                  "measuredW": "10",
+                  "measuredH": "28",
+                  "x": "128",
+                  "y": "9",
+                  "properties": {
+                    "color": "16777215",
+                    "size": "20",
+                    "text": "/"
+                  }
+                }
+              ]
+            }
+          }
+        },
         {
           "ID": "3587",
           "typeID": "Arrow",
@@ -1041,11 +1255,11 @@
                   "zOrder": "1",
                   "measuredW": "177",
                   "measuredH": "24",
-                  "x": "59",
+                  "x": "42",
                   "y": "9",
                   "properties": {
                     "size": "16",
-                    "text": "Conceptos básicos"
+                    "text": "Learn the Fundamentals"
                   }
                 }
               ]
@@ -1086,7 +1300,7 @@
                   "measuredH": "24",
                   "x": "85",
                   "y": "10",
-                  "properties": { "size": "16", "text": "Operadores" }
+                  "properties": { "size": "16", "text": "Getting Deeper" }
                 }
               ]
             }
@@ -1126,7 +1340,7 @@
                   "measuredH": "24",
                   "x": "46",
                   "y": "10",
-                  "properties": { "size": "16", "text": "Operadores" }
+                  "properties": { "size": "16", "text": "Build Tools" }
                 }
               ]
             }
@@ -1164,9 +1378,9 @@
                   "zOrder": "1",
                   "measuredW": "125",
                   "measuredH": "24",
-                  "x": "80",
+                  "x": "46",
                   "y": "10",
-                  "properties": { "size": "16", "text": "Arreglos" }
+                  "properties": { "size": "16", "text": "Web Frameworks" }
                 }
               ]
             }
@@ -1386,9 +1600,9 @@
                   "w": "95",
                   "measuredW": "92",
                   "measuredH": "24",
-                  "x": "34",
+                  "x": "64",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Primitivos y Wrappers" }
+                  "properties": { "size": "16", "text": "Basic Syntax" }
                 }
               ]
             }
@@ -1510,7 +1724,7 @@
                   "measuredH": "24",
                   "x": "85",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Diseño de clases básico" }
+                  "properties": { "size": "16", "text": "DataStructures" }
                 }
               ]
             }
@@ -1522,7 +1736,7 @@
           "zOrder": "52",
           "measuredW": "280",
           "measuredH": "42",
-          "w": "480",
+          "w": "280",
           "h": "42",
           "x": "698",
           "y": "440",
@@ -1548,11 +1762,11 @@
                   "zOrder": "1",
                   "measuredW": "178",
                   "measuredH": "24",
-                  "x": "121",
+                  "x": "51",
                   "y": "9",
                   "properties": {
                     "size": "16",
-                    "text": "POO"
+                    "text": "OOP, Interfaces, Classes"
                   }
                 }
               ]
@@ -1593,7 +1807,7 @@
                   "measuredH": "24",
                   "x": "104",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Creación de objetos" }
+                  "properties": { "size": "16", "text": "Packages" }
                 }
               ]
             }
@@ -1637,7 +1851,7 @@
                   "y": "9",
                   "properties": {
                     "size": "16",
-                    "text": "Manejo de variables"
+                    "text": "Working with Files and APIs"
                   }
                 }
               ]
@@ -1676,9 +1890,9 @@
                   "zOrder": "1",
                   "measuredW": "45",
                   "measuredH": "24",
-                  "x": "60",
+                  "x": "70",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Arreglos" }
+                  "properties": { "size": "16", "text": "Loops" }
                 }
               ]
             }
@@ -2008,9 +2222,9 @@
                   "zOrder": "1",
                   "measuredW": "121",
                   "measuredH": "24",
-                  "x": "70",
+                  "x": "50",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Aritméticos" }
+                  "properties": { "size": "16", "text": "How JVM works?" }
                 }
               ]
             }
@@ -2050,9 +2264,9 @@
                   "zOrder": "1",
                   "measuredW": "141",
                   "measuredH": "24",
-                  "x": "80",
+                  "x": "40",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Lógicos" }
+                  "properties": { "size": "16", "text": "Garbage Collection" }
                 }
               ]
             }
@@ -2092,9 +2306,9 @@
                   "zOrder": "1",
                   "measuredW": "130",
                   "measuredH": "24",
-                  "x": "48",
+                  "x": "46",
                   "y": "9",
-                  "properties": { "size": "16", "text": "Unarios y binarios" }
+                  "properties": { "size": "16", "text": "Basics of Threads" }
                 }
               ]
             }
@@ -3186,6 +3400,62 @@
                   "x": "48",
                   "y": "9",
                   "properties": { "size": "16", "text": "JMeter" }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "3678",
+          "typeID": "__group__",
+          "zOrder": "110",
+          "measuredW": "468",
+          "measuredH": "84",
+          "w": "468",
+          "h": "84",
+          "x": "510",
+          "y": "1273",
+          "properties": { "controlName": "ext_link:roadmap.sh/backend" },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "zOrder": "0",
+                  "w": "468",
+                  "h": "84",
+                  "measuredW": "100",
+                  "measuredH": "70",
+                  "x": "0",
+                  "y": "0"
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "zOrder": "1",
+                  "measuredW": "407",
+                  "measuredH": "28",
+                  "x": "35",
+                  "y": "16",
+                  "properties": {
+                    "size": "20",
+                    "text": "Backend Roadmap after Language Selection"
+                  }
+                },
+                {
+                  "ID": "2",
+                  "typeID": "Label",
+                  "zOrder": "2",
+                  "measuredW": "153",
+                  "measuredH": "24",
+                  "x": "157",
+                  "y": "44",
+                  "properties": {
+                    "size": "16",
+                    "text": "roadmap.sh/backend",
+                    "color": "10027263"
+                  }
                 }
               ]
             }
