@@ -7,6 +7,8 @@ import rehypeExternalLinks from 'rehype-external-links';
 import { serializeSitemap, shouldIndexPage } from './sitemap.mjs';
 
 export default defineConfig({
+  site: 'https://rengerden.github.io',
+  base: '/',
   markdown: {
     shikiConfig: {
       theme: 'dracula',
