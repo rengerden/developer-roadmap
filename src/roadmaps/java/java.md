@@ -1,5 +1,5 @@
 ---
-jsonUrl: "/jsons/roadmaps/java2.json"
+jsonUrl: "/developer-roadmap/jsons/roadmaps/java2.json"
 pdfUrl: "/pdfs/roadmaps/java.pdf"
 order: 1
 featuredTitle: "Java"
