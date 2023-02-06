@@ -120,6 +120,7 @@ export class Topic {
   }
 
   renderTopicFromUrl(url) {
+    url = "/developer-roadmap/" + url;
     return fetch(url)
       .then((res) => {
         return res.text();
