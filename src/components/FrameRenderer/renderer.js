@@ -49,7 +49,7 @@ export class Renderer {
       })
       .then(function (json) {
         return wireframeJSONToSVG(json, {
-          fontURL: '/fonts/balsamiq.woff2',
+          fontURL: '/developer-roadmap/fonts/balsamiq.woff2',
         });
       });
   }
